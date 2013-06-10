@@ -1,0 +1,21 @@
+{
+    "name": "kayue/kayue-essence-bundle",
+    "type": "symfony-bundle",
+    "description": "This bundle integrates the Essence library (an oEmbed library) into Symfony 2.",
+    "keywords":    [
+        "oembed", "media", "youtube", "vimeo", "symfony", "symfony2"
+    ],
+    "homepage": "http://github.com/kayue/KayueEssenceBundle",
+    "license": "MIT",
+
+    "require": {
+        "php": ">=5.3.3",
+        "fg/essence": ">=1.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "Kayue\\EssenceBundle": ""
+        }
+    },
+    "target-dir": "Kayue/EssenceBundle"
+}

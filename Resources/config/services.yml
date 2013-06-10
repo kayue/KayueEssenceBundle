@@ -1,0 +1,10 @@
+services:
+    kayue_essence:
+        class: Kayue\EssenceBundle\Essence\Essence
+
+    kayue_essence.twig.extension:
+        class: Kayue\EssenceBundle\Twig\Extension\EssenceExtension
+        arguments:
+            - @kayue_essence
+        tags:
+            - { name: twig.extension }
