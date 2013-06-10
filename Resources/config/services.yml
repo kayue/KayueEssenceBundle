@@ -1,6 +1,8 @@
 services:
     kayue_essence:
         class: Kayue\EssenceBundle\Essence\Essence
+        arguments:
+            - %kayue_essence.cache_driver%
 
     kayue_essence.twig.extension:
         class: Kayue\EssenceBundle\Twig\Extension\EssenceExtension
