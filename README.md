@@ -67,7 +67,7 @@ class WelcomeController extends Controller
 }
 ```
 
-#### Twig Extension
+### Twig Extension
 
 ##### Replace Filter
 
