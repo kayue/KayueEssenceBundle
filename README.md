@@ -42,7 +42,7 @@ public function registerBundles()
 
 ## Configuration
 
-No configuration is required. However you should change the cache driver to `apc` if your browser support it. Default cache driver is `array`
+No configuration is required. However you should change the cache driver to `apc` if your server support it. Default cache driver is `array`
 
 ```yaml
 kayue_essence:
