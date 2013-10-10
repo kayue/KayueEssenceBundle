@@ -10,7 +10,7 @@
 
     "require": {
         "php": ">=5.3.3",
-        "fg/essence": "1.4.0",
+        "fg/essence": "1.4.1",
         "doctrine/common": ">=2.2"
     },
     "autoload": {
