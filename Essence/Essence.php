@@ -9,7 +9,7 @@ class Essence extends \fg\Essence\Essence
 {
     public function __construct($cacheDriver)
     {
-        \fg\Essence\Registry::register('cache', new Cache($this->getCache($cacheDriver)));
+        \fg\Essence\Utility\Registry::register('cache', new Cache($this->getCache($cacheDriver)));
         parent::__construct();
     }
 
